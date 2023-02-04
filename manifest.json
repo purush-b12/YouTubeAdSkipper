@@ -1,0 +1,17 @@
+{
+    "name": "YouTube Ad Skipper",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "YouTube Ad Skipper",
+    "minimum_chrome_version": "88.0",
+    "icons":
+    {
+        "128": "logo.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.youtube.com/*"],
+          "js": ["contentscript.js"]
+        }
+      ]
+}
