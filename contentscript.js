@@ -5,6 +5,9 @@ window.onload = () => {
             if(element.target && element.target.innerText && element.target.innerText.indexOf('Skip Ad') != -1 ){
                 element.target.click();
             }
+            if(element.target.classList[0] == 'video-ads'){
+                element.target.querySelector('.ytp-ad-overlay-close-button').click();
+            }
         });
     });
 
