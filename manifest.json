@@ -2,7 +2,7 @@
     "name": "YouTube Ad Skipper",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description": "YouTube Ad Skipper",
+    "description": "YouTube Ad Skipper - helps in auto skipping 5 seconds actable ads and ad banners",
     "minimum_chrome_version": "88.0",
     "icons":
     {
